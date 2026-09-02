@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Opgave</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Hjem</a>
+                </li>
+                <li>
+                    <a href="produkt.html">Produkter</a>
+                </li>
+                <li>
+                    <a href="om.html">Om os</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- Kontakt validering -->
+            <h1>Kontakt</h1>
+            <form action="" id="form" class="form" novalidate>
+                <input type="text" name="firstname" placeholder="Fornavn" required>
+                <input type="text" placeholder="Efternavn" name="lastname" required>
+                <input type="text" name="phone" placeholder="Tlf">
+                <input type="email" name="email" placeholder="E-mail">
+                <button>Send</button>
+            </form>
+            <div class="errors" id="errors" style="background-color: rgb(255, 255, 255);"></div>
+        </section>
+    </main>
+    <footer>
+        <small>
+            © 2026 Simone Slagslunde. All rights reserved.
+        </small>
+    </footer>
+</body>
+
+</html>
