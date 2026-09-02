@@ -128,3 +128,22 @@ h3 {
 }
 
 /* #endregion om so */
+
+/* #region kontakt */
+#form {
+    width: 30rem;
+    display: grid;
+    margin: 0 auto;
+}
+
+input {
+    margin: 0.5rem 0;
+}
+
+button {
+    width: 7rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+/* #endregion kontakt */
