@@ -49,3 +49,28 @@ body {
 }
 
 /* #endregion RESETS */
+
+/* #region header, footer */
+header {
+    background-color: grey;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+footer {
+    background-color: grey;
+    margin-top: 1rem;
+}
+
+small {
+    display: flex;
+    justify-content: center;
+}
+
+/* #endregion header, footer */
