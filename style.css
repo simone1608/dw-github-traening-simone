@@ -87,3 +87,21 @@ p {
 }
 
 /* #endregion hjem */
+
+/* #region produkter */
+.h1-p {
+    text-align: center;
+}
+
+.produkter {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.produkt img {
+    width: 20rem;
+}
+
+/* #endregion produkter */
