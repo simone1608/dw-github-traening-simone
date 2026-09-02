@@ -105,3 +105,26 @@ p {
 }
 
 /* #endregion produkter */
+
+/* #region om os */
+.article {
+    width: 45rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.article h2,
+h3 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.article ul {
+    list-style: circle;
+}
+
+.article ul li {
+    margin: 0.5rem 0;
+}
+
+/* #endregion om so */
