@@ -74,3 +74,16 @@ small {
 }
 
 /* #endregion header, footer */
+
+/* #region hjem */
+.hjem {
+    width: 35rem;
+    margin: 0 auto;
+}
+
+.hjem h1,
+p {
+    text-align: center;
+}
+
+/* #endregion hjem */
